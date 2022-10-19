@@ -14,7 +14,7 @@ body{
 nav.navigation{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
     padding: 5px 20px;
     padding: 0px;
@@ -39,7 +39,7 @@ a:hover{
 
 .gauche{
     font-size: 50px;
-    color: white;
+    color: wh;
     
 }
 

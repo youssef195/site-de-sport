@@ -1,0 +1,115 @@
+/*p.a{
+	color: #4F9C48;
+	background-color: #000;
+}
+
+p.b{
+	color: #9E43AE;
+	font-weight: bold;
+}
+
+body{
+	background-color: #666;
+}
+
+h1.x{
+	font-size: 100px;
+	padding-left: 10px;
+
+}
+a{
+	color:#9E43AE;
+	opacity: 0.8; 
+}*/
+
+body{
+	overflow-x: hidden;
+}
+button#btn-1{
+	background-color: red;
+	box-sizing: border-box;
+	font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 20px;
+}
+
+div#cont {
+	background-color: red;
+}
+
+div#cont div{
+	display: inline-block;
+	width: 49%
+}
+div#cont div.gauche{
+background-color: #777;
+vertical-align: top;
+
+}
+.question-click {
+	background: #9E43AE;
+	border-radius: 40px;
+	border: 10px dashed pink;
+}
+
+.show-resp{
+	visibility: visible;
+	opacity:  1;
+}
+.box{
+	background-color: yellow;
+}
+
+.mouse{
+	height: 50px;
+	width: 50px;
+	border: 2px solid blueviolet;
+	position: absolute;
+	transform:translate(-50%,-50%);
+	border-radius: 50px;
+	z-index: -1;
+}
+
+
+
+div#cont div.gauche h1,p{
+	padding: 40px;
+	width: 100%;
+}
+
+div#cont div.droite iframe{
+	margin: 50px;
+}
+
+div#cont div.droite{
+background-color: #675	
+}
+
+
+nav.nav ul li.aa{
+	list-style-type: none;
+	display: inline-block;
+}
+nav.nav ul li.aa a{
+	color: #9E43AE;
+	background-color: #777;
+	text-decoration: none;
+	padding: 10px;
+}
+
+nav.nav ul li.aa:hover a{
+	background-color: #1B1F94;
+	color:#EE2E5D;
+	transition: 0.2s all;
+}
+
+footer{
+	background-color: #777;
+}
+
+header{
+	background-color:#1B1F94; 
+}
+
+header img{
+	border-radius: 50%;
+}
